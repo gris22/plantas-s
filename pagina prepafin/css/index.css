@@ -1,0 +1,268 @@
+
+body{background:white;}
+
+
+
+.contenido
+{text-align: center;
+padding: 10px 0;}
+
+
+.separador
+{height: 60px;
+background: none;}
+
+button
+{border: none;
+background: none;}
+
+span
+{margin:5px;}
+
+ .contenido-2
+{text-align: center;
+padding: 10px 0 0;
+}
+
+h1
+{font-size: 35px;
+padding: 20px;
+background:#FFB119;
+font-family: 'Playfair Display', serif;}
+
+
+h3
+{font-size: 35px;
+padding: 20px;
+text-transform:capitalize;
+margin-bottom: 40px;
+background:#FFB119;
+font-family: 'Playfair Display', serif;}
+
+.cuadro-texto
+{background:#F4F4F4;
+width: 90%;
+max-width: 600px;
+font-size: 18px;
+margin:30px auto 0px;
+line-height : 35px;
+font-size: 18px;
+padding: 10px;
+border-radius: 20px;}
+
+.informacion-2
+{background: rgba(0, 90, 204 , 0.1);
+width: 90%;
+max-width: 600px;
+margin:30px auto 60px;
+line-height : 35px;
+font-size: 18px;
+padding: 10px;
+}
+
+button.boton
+{height: 40px;
+width: 50%;
+font-size:20px;
+color:white;
+margin: 10px;
+background:black;
+border:2px solid black;
+font-family: 'Playfair Display', serif;
+border-radius: 40px;
+cursor: pointer; }
+
+button:hover
+{background:none;
+color: black;
+transition: .4s;}
+
+img
+{display: inline-block;}
+
+.contenido img
+{object-fit: cover;
+width: 90%;
+max-width: 600px;
+height: 250px;
+border-radius: 5px;}
+
+.extra-text
+{font-family: 'Playfair Display', serif;
+font-size:25px;
+text-align: center;
+color:  #FFA900;
+width: 100%;
+margin: 0 auto;}
+
+
+
+/* -------------header------------------------ */
+
+
+
+nav
+{background-color:#FFB119;
+height:80px;
+width: 100%;
+z-index: 40;
+position: fixed;
+display: flex;
+justify-content:center;
+align-items: center;}
+
+nav img
+{height:50px;}
+
+.pestañas{
+font-size:18px;
+outline: none;
+color: white;
+cursor: pointer;
+margin: 0px 10px;
+padding: 1rem 1rem;
+font-family: 'Playfair Display', serif;
+border-right: 2px solid white;
+background-color: inherit;}
+
+.active
+{color: black;}
+
+.pestañas:hover
+{color:black;}
+
+nav ul
+{display: flex;}
+
+.drawer{
+font-size: 25px;
+float: left;
+cursor: pointer;
+display: none;
+border-radius: 10px;
+margin-left:10px;
+padding:10px;}
+
+.drawer:hover
+{}
+
+#ckbox
+{display: none;}
+
+
+
+
+
+/* --------inicio------------ */
+
+#principal
+{}
+
+
+#principal img
+{object-fit: cover;
+width: 100%;
+height:650px;}
+
+h4
+{background: black;
+text-align: center;
+color: white;
+font-size: 25px;
+font-family: 'Playfair Display', serif;
+padding: 40px;
+margin:-5px 0px;}
+
+.banner
+{height: 300px;
+width: 50%;
+margin:-400px 40% 100px;
+z-index: 20;
+text-align: center;
+position: relative;
+background: rgba(0, 0, 0, 0.6)}
+
+.banner h5
+{background: none;
+color:#FFB119;}
+
+
+
+/* --------------------quienes---------- */
+
+
+/* -----------nuestra----- */
+
+
+
+/* ------------tituo 3 promo------- */
+.tabla
+{border-bottom:1px solid #0079DF;
+width: 90%;
+margin: 20px auto;}
+
+
+/* -----------------servicios--------- */
+.caja-servicios{margin: 0 0 60px;}
+
+.block-serv
+{margin: 0 auto;
+max-width: 600px;}
+
+
+.iconos
+{height: 80px;
+width: 80px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin:10px auto;
+border-radius: 50%;
+font-size: 30px;
+border: 4px solid #FFC000;}
+
+.cuadro
+{width: 130px;
+height: 130px;
+margin: 50px 10px;
+justify-content: center;
+display: inline-block;}
+
+h2
+{font-size: 15px;
+color:#474747;}
+
+.iconos:hover
+{transform:rotate(360deg);
+transition:0.6s;}
+
+/* --------footer---- ---*/
+
+footer
+{background:#1A1A1A;
+text-align:center;
+padding:40px;
+margin-top: 30px;
+}
+footer img
+{width: 20%;
+max-width:250px}
+
+footer span
+{color: white;}
+
+.ventas p,li
+{color:white; }
+
+.ventas p
+{text-align: center;}
+
+.ventas
+{width:90%;
+max-width: 400px;
+margin:20px 5%;
+display: inline-block;
+text-align: justify;}
+
+li
+{display:inherit;}
